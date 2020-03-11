@@ -1,13 +1,9 @@
-package zup.estrelas.cidade.java.sql;
+package zup.estrelas.cidadeConnectionFactory.java.sql;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-
-
-
-
-public class CidadeConnFactory {
+public class CidadeConnectionFactory {
 	public static Connection getConnection() {
 		try {
 			return DriverManager.getConnection(
